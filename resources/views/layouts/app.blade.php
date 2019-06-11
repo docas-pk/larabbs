@@ -7,6 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <meta name="csrf-token" content="{{ csrf_token() }}">
+
+  <meta name="description" content="@yield('description', 'LaraBBS 爱好者社区')" />
   <title>@yield('title', 'LaraBBS')</title>
 
   <link rel="stylesheet" href="{{ mix('css/app.css') }}">
